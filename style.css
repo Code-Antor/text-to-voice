@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(81, 174, 211), rgb(211, 69, 93));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.content select{
+    width: 50%;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+.content button{
+    width: 20%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: bisque;
+}
+#input{ 
+    width: 600px;
+    height: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background: linear-gradient(to left, rgb(206, 175, 175), rgb(150, 209, 150));
+    display: flex;
+    
+}
+#input::placeholder{
+    color: #a84d4d;
+    
+}
